@@ -1,0 +1,47 @@
+body{
+   background-color: rgb(33, 72, 86);
+   font-size: 25px;
+   margin: 2% 10%;
+}
+main{
+   background-color: rgb(89, 130, 157);
+   padding: 3%;
+}
+
+.complited{
+background-color: green;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 45px;
+padding: 25px;
+}
+.not-complited{
+   background-color: red;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 45px;
+padding: 25px;
+}
+.test {
+   color: gray;
+   text-transform: uppercase;
+
+}
+.info-game {
+   background-color: rgb(163, 143, 31);
+   padding: 3%;
+}
+
+button{
+   padding: 1%;
+   margin-bottom: 1.5%;
+   font-size: 25px;
+   background-color: rgb(33, 72, 86);
+   color: aliceblue;
+   border: 1px solid aliceblue;
+   transition: all 0.8s;
+}
+button:hover{
+   background-color: rgb(113, 194, 222);
+   color: rgb(21, 32, 43);  
+   border: 3px solid rgb(21, 32, 43);
+   box-shadow: 2px 2px 2px 2px;
+}
